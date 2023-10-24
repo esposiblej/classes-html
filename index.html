@@ -9,6 +9,8 @@
 </head>
 <body>
     <h1 class="titulo">MY BLOGSPOT OF ROBOTICS</h1>
+    <h3 id="fechaActual"></h3>
+  
 
     <h2 class="parrafogrande">Aqui pondre todo lo que vaya haciendo
          durante las clases de robotica</h2>
@@ -35,4 +37,13 @@
             y pulsar f5 </li>
     </ul>
 </body>
+        <script>
+            console.log("Hola mundo")
+            console.log(new Date(Date.now()))
+            const fecha = Date(Date.now())
+            console.log(fecha)
+            const elementoFecha = document.getElementById("fechaActual")
+            elementoFecha.innerHTML=fecha
+           
+        </script>
 </html>
