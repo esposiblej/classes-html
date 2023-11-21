@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,43 +8,51 @@
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" h2="estilo.css">
 </head>
+
 <body>
     <h1 class="titulo">MY BLOGSPOT OF ROBOTICS</h1>
     <h3 id="fechaActual"></h3>
-  
+
 
     <h2 class="parrafogrande">Aqui pondre todo lo que vaya haciendo
-         durante las clases de robotica</h2>
+        durante las clases de robotica</h2>
 
 
     <p id="favorito">
-    Aqui estara colocado el contenido sobre
-     robotica, programacion e impresion 3d.
-     </p>
-   
-     <h3>Lista del dia 10 de octubre de 2023</h3>
+        Aqui estara colocado el contenido sobre
+        robotica, programacion e impresion 3d.
+    </p>
+
+    <h3>Lista del dia 10 de octubre de 2023</h3>
     <ul style="max-width: 250px;">
-        <li>Hacer una cuenta de github</li>
-        <li>instalar un servidor http</li>
-        <li>Crear una cuenta de github</li>
-        <li>crear una pagina html basica</li>
-        <li>Poner a imprimir las piezas del 1er soporte de la microbit</li>
+        <li> <a href="./controlador_temperatura/">controlador de temperatura</a></li>
+
     </ul>
+
     <h2>NOTAS</h2>
+
     <ul style="max-width: 250px;">
         <li> si en css pulsas control spacio te salen las ayudas</li>
-        <li>para cambiar de color textos que no sean titulos hay 
+        <li>para cambiar de color textos que no sean titulos hay
             que hacer lo mismo que en estos ir a la pagina web
             y pulsar f5 </li>
     </ul>
+
+
+    
 </body>
-        <script>
-            console.log("Hola mundo")
-            console.log(new Date(Date.now()))
-            const fecha = Date(Date.now())
-            console.log(fecha)
-            const elementoFecha = document.getElementById("fechaActual")
-            elementoFecha.innerHTML=fecha
-           
-        </script>
+
+
+
+
+<script>
+    console.log("Hola mundo")
+    console.log(new Date(Date.now()))
+    const fecha = Date(Date.now())
+    console.log(fecha)
+    const elementoFecha = document.getElementById("fechaActual")
+    elementoFecha.innerHTML = fecha
+
+</script>
+
 </html>
